@@ -1,14 +1,33 @@
-# Multithread File Reading
+# Character Frequency Counter using Threads 🧵
 
-## Objetivo
+This project is a Java application that counts the frequency of each letter (a-z) across multiple text files using multithreading. The program processes each file in a separate thread to speed up the counting process, with thread synchronization to handle concurrent updates to the shared data structure.
 
-- Desenvolva um programa em Java que leia todos os arquivos no formato txt de um
-determinado diretório. O programa deve realizar a contagem dos caracteres dos
-arquivos.
+## Features
 
-- Como resultado, o programa deve imprimir na tela todas as letras do alfabeto, consolidando a quantidade de caracteres dessa letra.
-- Além desse requisito, o programa deve exibir na tela o tempo de execução gasto para realizar o processamento.
-- Inicialmente o programa deve utilizar o diretório de amostra que contém 100 arquivos (amostra.zip)
-- Após isso, o programa deve utilizar o diretório de produção que contém 35.000 arquivos (todosArquivos.zip).
-- Efetue análises da quantidade de threads e submeta o código com a melhor quantidade de threads para seu computador.
-- Entregue apenas o código fonte .java da solução
+- **Multithreading**: Each file is processed in parallel using threads, improving efficiency for large datasets.
+- **Thread Synchronization**: Ensures that the shared character frequency map is updated correctly when accessed by multiple threads.
+- **Performance Timing**: Measures and prints the total time taken to process all files.
+
+## Usage
+
+1. The directory called `todosArquivos` has 35k of txt files.
+2. Run the application. It will count the frequency of each letter from all files in the directory and print the result.
+3. The total execution time (in ms) is displayed at the end.
+
+## How to Run
+
+1. Clone the repository.
+   ```
+   git clone https://github.com/tuchanski/multithread-file-reading.git
+   ```
+2. Open the project in your favorite Java IDE.
+3. Run the `Main` class.
+
+## Technology
+
+Programming language: **Java**
+
+## Author
+
+- [Guilherme Tuchanski Rocha | GitHub](https://github.com/tuchanski)
+
