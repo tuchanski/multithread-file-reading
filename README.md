@@ -1,4 +1,6 @@
-# Character Frequency Counter using Threads 🧵
+# Multithread File Reading 🧵
+
+## Character Frequency Counter using Threads
 
 This project is a Java application that counts the frequency of each letter (a-z) across multiple text files using multithreading. The program processes each file in a separate thread to speed up the counting process, with thread synchronization to handle concurrent updates to the shared data structure.
 
