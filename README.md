@@ -33,3 +33,6 @@ Programming language: **Java**
 
 - [Guilherme Tuchanski Rocha | GitHub](https://github.com/tuchanski)
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
