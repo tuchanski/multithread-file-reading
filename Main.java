@@ -20,7 +20,7 @@ public class Main {
 
         Long start = System.currentTimeMillis();
 
-        ExecutorService executorService = Executors.newFixedThreadPool(10);
+        ExecutorService executorService = Executors.newFixedThreadPool(8);
 
         for (File file : files){
             executorService.submit(() -> countChar(file));
